@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Resources</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="header-div">
     <h1>Hi Everyone!</h1>
     <h2>Welcome to a page where you can find links to some of 
         the best free resources to learn coding.</h2>
-    <h3>Of course this is just my opinion 😄</h3>
+    <h3>(Of course this is just my opinion 😄)</h3>
     </div>
 
     <div id="tabs">
-        <button class="tab-button"
-        onclick="openTab(event, 'html')">HTML</button>
+        <button class="tab-button active" onclick="openTab(event, 'html')">HTML</button>
         <button class="tab-button" onclick="openTab(event, 'css')">CSS</button>
         <button class="tab-button" onclick="openTab(event, 'javascript')">JavaScript</button>
         <button class="tab-button" onclick="openTab(event, 'sql')">SQL</button>
@@ -24,24 +24,69 @@
     </div>
 
     <div id="html" class="content">
-        <p>HERES SOME HTML CONTENT!!!!!</p>
+        <div class="div-container">
+        <div class="content-item">hello</div>
+        <div class="content-item">meow</div>
+        <div class="content-item">1</div>
+        <div class="content-item">2</div>
+        <div class="content-item">hello</div>
+        <div class="content-item">meow</div>
+        <div class="content-item">1</div>
+        <div class="content-item">2</div>
+        </div>
     </div>
 
     <div id="css" class="content">
-        <p>HERES SOME CSS INFO!</p>
+        <div class="div-container">
+            <div class="content-item">hello</div>
+            <div class="content-item">meow</div>
+            <div class="content-item">1</div>
+            <div class="content-item">2</div>
+            <div class="content-item">hello</div>
+            <div class="content-item">meow</div>
+            <div class="content-item">1</div>
+            <div class="content-item">2</div>
+            </div>
     </div>
 
     <div id="javascript" class="content">
-        <p>LEARN JAVASCRIPT FROM MEEEEEE MWAAHAHHA</p>
+        <div class="div-container">
+            <div class="content-item">hello</div>
+            <div class="content-item">meow</div>
+            <div class="content-item">1</div>
+            <div class="content-item">2</div>
+            <div class="content-item">hello</div>
+            <div class="content-item">meow</div>
+            <div class="content-item">1</div>
+            <div class="content-item">2</div>
+            </div>
     </div>
 
     <div id="sql" class="content">        
-        <p>boring boring sql but if you want to learn it maybe i can help</p>
+        <div class="div-container">
+            <div class="content-item">hello</div>
+            <div class="content-item">meow</div>
+            <div class="content-item">1</div>
+            <div class="content-item">2</div>
+            <div class="content-item">hello</div>
+            <div class="content-item">meow</div>
+            <div class="content-item">1</div>
+            <div class="content-item">2</div>
+            </div>
     </div>
 
     <div id="python" class="content">
-        <p>im a sneaky snake</p>
+        <div class="div-container">
+            <div class="content-item">hello</div>
+            <div class="content-item">meow</div>
+            <div class="content-item">1</div>
+            <div class="content-item">2</div>
+            <div class="content-item">hello</div>
+            <div class="content-item">meow</div>
+            <div class="content-item">1</div>
+            <div class="content-item">2</div>
+            </div>
     </div>
-    
+ <script src="script.js"></script>   
 </body>
 </html>

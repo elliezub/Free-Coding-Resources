@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin:0;
+}
+
+body {
+    background-color: #EEF0F4;
+}
+/* HEADER */
+#header-div {
+    width: 80vw;
+    max-width: 815px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+/* HEADER END */
+
+/* TABS */
+#tabs {
+    width: 80vw;
+    max-width: 815px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+    position:relative; /* see dif?? */
+}
+
+.tab-button {
+    padding:10px;
+    width:19.6%;
+    border-radius: 6px 6px 0 0;
+    border: 2.5px solid black;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    color: white;
+    overflow: hidden;
+}
+
+.tab-button.active {
+    border-bottom: transparent;
+}
+
+.tab-button:nth-of-type(1) {
+    background-color: #7F7EFF;
+}
+
+.tab-button:nth-of-type(2) {
+    background-color: #7F2982;
+}
+
+.tab-button:nth-of-type(3) {
+    background-color: #F2BB05;
+}
+
+.tab-button:nth-of-type(4) {
+    background-color: #E85F5C;
+}
+
+.tab-button:nth-of-type(5) {
+    background-color: blueviolet;
+}
+
+
+/* TABS END */
+
+
+
+/* CONTENT */
+.content {
+    display: none;
+    border-radius: 1px 1px 5px 5px;
+    border-top:none;
+    outline:2.5px solid black;  
+    background-color: blueviolet;
+    width: 80vw;
+    height: 560px;
+    max-width: 815px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    color: white;
+}
+
+.div-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px 0 0 0;
+}
+
+.content-item {
+    width: 160px;
+    height: 160px;
+    border: solid black;
+    background-color: #EEF0F4;
+    border-radius: 13px;
+    margin-top: 20px;
+    padding:5px 9px;
+    color:black
+
+}
+
+#html {
+    display: block;
+    background-color: #7F7EFF;
+}
+#css {
+    background-color: #7F2982;
+}
+#javascript {
+    background-color: #F2BB05;
+}
+#sql {
+    background-color: #E85F5C;
+}
+#python {
+    background-color: blueviolet;
+}
