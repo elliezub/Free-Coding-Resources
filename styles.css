@@ -188,6 +188,20 @@ h5 {
     padding-right: 8px;
 }
 
+#mimo-logo {
+    width: 20px;
+    float:right;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#sololearn-logo {
+    width: 25px;
+    float:right;
+    border-radius: 5px;
+    margin-right: .5px;
+}
+
 #froggy-img {
     width: 30px;
     float: right;
