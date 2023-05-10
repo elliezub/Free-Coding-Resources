@@ -193,6 +193,12 @@ h5 {
     float: right;
 }
 
+#garden-img {
+    width: 30px;
+    float: left;
+    margin-right: 15px;
+}
+
 /* LOGOS END */
 
 
