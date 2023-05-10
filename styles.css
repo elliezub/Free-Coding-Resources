@@ -10,9 +10,8 @@ body {
 }
 /* HEADER */
 #header-div {
-    width: 80vw;
-    max-width: 815px;
-    margin: 20px auto;
+    width: 815px;
+    margin: 40px auto 20px auto;
     margin-bottom: 50px;
 }
 
@@ -25,24 +24,28 @@ h2 {
 /* TABS */
 #tabs {
     width: 80vw;
-    max-width: 815px;
+    width: 815px;
     margin: 0 auto;
     display: flex; 
     justify-content: space-between;
     position:relative; /* see dif?? */
+    border-radius: 6px 6px 0 0;
+    background: linear-gradient(to bottom, #EEF0F4 33%, black 33%);
+    box-shadow: 10px 11px black;
 }
 
 .tab-button {
     padding:10px;
-    width:19.6%;
+    width:19.9%;
     border-radius: 6px 6px 0 0;
     border: 2.5px solid black;
     position: relative;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
     color: white;
     overflow: hidden;
 }
+
 
 .tab-button.active {
     border-bottom: transparent;
@@ -76,24 +79,25 @@ h2 {
 /* CONTENT */
 .content {
     display: none;
-    border-radius: 1px 1px 5px 5px;
+    border-radius: 4px 4px 5px 5px;
     border-top:none;
     outline:2.5px solid black;  
     background-color: blueviolet;
     width: 80vw;
-    height: 560px;
-    max-width: 815px;
-    margin: 0 auto;
+    min-height: 580px;
+    width: 815px;
+    margin: 0 auto 50px auto;
     position: relative;
     top: 0;
     color: white;
+    box-shadow: 10px 10px black;
 }
 
 .div-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 15px 0 0 0;
+    justify-content: center;
+    padding: 30px 7px 20px 7px;
 }
 
 .content-item {
@@ -102,11 +106,58 @@ h2 {
     border: solid black;
     background-color: #EEF0F4;
     border-radius: 13px;
-    margin-top: 20px;
-    padding:5px 9px;
-    color:black
+    margin: 7px;
+    padding:7px 11px;
+    color:black;
+    box-shadow: 4px 4px black;
 
 }
+
+.content-item h4 {
+    display: inline;
+    padding-left:2px;
+}
+
+.content-item i {
+    padding-right:2px;
+}
+
+.maintext {
+    margin-top: 5px;
+    margin-left: 2px;
+    font-size: .725rem;
+}
+
+.subtext {
+   font-size: .6rem;
+   margin-top: 2px;
+   margin-left:2px;
+   color: #3f0098;
+}
+
+/* LOGOS */
+
+#scrimba-logo {
+    width:40px;
+    border-radius: 50%;
+    float:right;  
+}
+
+#codercoderimg {
+    width:47px;
+    border-radius: 50%;
+    float:left;
+    padding-right:5px;
+}
+
+#w3schools-logo {
+    width:34px;
+    float:right;
+}
+
+/* LOGOS END */
+
+
 
 #html {
     display: block;

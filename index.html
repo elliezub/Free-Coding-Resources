@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Resources</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e5f441b479.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header-div">
@@ -15,24 +16,54 @@
     <h3>(Of course this is just my opinion 😄)</h3>
     </div>
 
-    <div id="tabs">
+    <div id="tabs" class="tab-shadow">
+     
         <button class="tab-button active" onclick="openTab(event, 'html')">HTML</button>
         <button class="tab-button" onclick="openTab(event, 'css')">CSS</button>
         <button class="tab-button" onclick="openTab(event, 'javascript')">JavaScript</button>
         <button class="tab-button" onclick="openTab(event, 'sql')">SQL</button>
         <button class="tab-button" onclick="openTab(event, 'python')">Python</button>
+        
     </div>
 
     <div id="html" class="content">
         <div class="div-container">
+        <div class="content-item">
+            <i class="fa-brands fa-free-code-camp fa-lg"></i>
+            <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank">
+                <h4>freeCodeCamp</h4></a>
+                <p class="maintext">This is the place that I started and fell in love with coding! 
+                    Start here if you want to learn HTML and CSS. Make sure to put your 
+                own creative twist on the module projects, you will learn so much more! </p>
+                <p class="subtext"><strong>Main resource</strong> - learn by doing - Challenges - Free certification</p>
+        </div>
+        <div class="content-item">    
+            <a id="scrimba-a" href="https://scrimba.com/learn/htmlandcss" target="_blank"><h4>Scrimba</h4></a>
+            <img id="scrimba-logo" src="https://asset.brandfetch.io/idK99W6SZ1/idqctupsPc.jpeg?updated=1681738159521" alt="scrimba logo">
+            <p class="maintext">The courses are in a screensharing format, and offer challenges that 
+                you can solve. There are many mini projects and is taught in bite-sized pieces. Go here if you
+                are an auditory or visual learner.</p>
+            <p class="subtext">Interactive - video content - Unique screen share interface</p>
+        </div>
+        <div class="content-item">
+            <img id="codercoderimg" src="https://yt3.googleusercontent.com/ytc/AGIKgqPhoYaIqILRWX3RdDgXOwK1WS47xXKZtgeidb4FWg=s176-c-k-c0x00ffffff-no-rj" alt="codercoder">
+            <a href="https://www.youtube.com/@TheCoderCoder/videos" target="_blank"><h4>Coder Coder</h4></a>
+            <p class="maintext">Awesome YouTube channel with walkthrough projects. She explains every piece of code that
+                is written, and breaks it down for beginners. She also has a great video explaining VS code, git and github.
+                <p class="subtext">Walkthrough videos - step-by-step instruction - github for beginners</p>
+            </p>
+        </div>
+        <div class="content-item">
+            <img id="w3schools-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png?20210601004220" alt="w3schools logo">
+            <a href="https://www.w3schools.com/html/default.asp" target="_blank"><h4>W3Schools</h4></a>
+            <p class="maintext">Great for reference and refreshing knowledge. Mini quizzes and problems to solve and get points. 
+                Extensive information and short pieces of example code. Would use in addition to your main resource.
+                <p class="subtext">Structured learning path - Organized reference material</p>
+            </p></div>
         <div class="content-item">hello</div>
         <div class="content-item">meow</div>
-        <div class="content-item">1</div>
-        <div class="content-item">2</div>
-        <div class="content-item">hello</div>
+        <div class="content-item">meow meow meow</div>
         <div class="content-item">meow</div>
-        <div class="content-item">1</div>
-        <div class="content-item">2</div>
         </div>
     </div>
 
