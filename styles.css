@@ -30,8 +30,8 @@ h2 {
     justify-content: space-between;
     position:relative; /* see dif?? */
     border-radius: 6px 6px 0 0;
-    background: linear-gradient(to bottom, #EEF0F4 33%, black 33%);
-    box-shadow: 10px 11px black;
+    background: linear-gradient(to bottom, #EEF0F4 34%, black 34%);
+    box-shadow: 10px 13px black;
 }
 
 .tab-button {
