@@ -160,6 +160,19 @@ h5 {
     margin-top: 3px;
 }
 
+#icon-div {
+    display: flex;
+    justify-content: center;
+    margin-top:34px;
+}
+
+#icon-div a {
+    text-decoration: none;
+    margin: 2px;
+    color: #3f0098;
+}
+
+
 /* LOGOS */
 
 
@@ -212,6 +225,41 @@ h5 {
     float: left;
     margin-right: 15px;
 }
+
+#front-img {
+    width: 25px;
+    float: right;
+    margin-top: 5px;
+}
+
+#scrimba-logo2 {
+    width:47px;
+    border-radius: 50%;
+    float:left; 
+    margin-right:8px;
+}
+
+#dev-img2 {
+    width:45px;
+    border-radius: 50%;
+    float:right;
+}
+
+#cssdays-img  {
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+
+.hackerrank-logo {
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
 
 /* LOGOS END */
 
