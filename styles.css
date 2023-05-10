@@ -19,6 +19,11 @@ h2 {
     margin: 10px 0;
 }
 
+.smallheadertext {
+    margin-top: 10px;
+    font-size: .7rem;
+}
+
 /* HEADER END */
 
 /* TABS */
@@ -96,7 +101,7 @@ h2 {
 .div-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     padding: 30px 7px 20px 7px;
 }
 
@@ -135,10 +140,31 @@ h2 {
    color: #3f0098;
 }
 
+h5 {
+    display: inline;
+    float:right;
+    margin-top: .5px;
+    margin-right: 1px;
+    color: #000000;
+    background-color: #d1c0ff;
+    outline: 2.4px solid; 
+    padding: 1.8px;
+    border-radius: 3px;
+
+}
+.mimo {
+    padding-bottom: 3px;
+}
+
+.sololearntext {
+    margin-top: 3px;
+}
+
 /* LOGOS */
 
+
 #scrimba-logo {
-    width:40px;
+    width:47px;
     border-radius: 50%;
     float:right;  
 }
@@ -150,9 +176,21 @@ h2 {
     padding-right:5px;
 }
 
-#w3schools-logo {
+.w3schools-logo {
     width:34px;
     float:right;
+}
+
+#dev-img {
+    width:45px;
+    border-radius: 50%;
+    float:left;
+    padding-right: 8px;
+}
+
+#froggy-img {
+    width: 30px;
+    float: right;
 }
 
 /* LOGOS END */
