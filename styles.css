@@ -331,11 +331,11 @@ h5 {
 
 @media (max-width: 460px) {
     #tabs {
-        width: 220px;
+        width: 80vw;
     }
 
     .content {
-        width: 220px;
+        width: 80vw;
     }
     
     .tab-button {
@@ -352,4 +352,8 @@ h5 {
     }
     #header-div {
         width: 80vw;}
+
+    .div-container {
+        justify-content: center;
+    }
 }
