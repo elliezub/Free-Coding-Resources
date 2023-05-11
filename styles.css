@@ -340,7 +340,7 @@ h5 {
 
 @media (max-width: 460px) {
     #tabs {
-        width: 80vw;
+        width: 79.2vw;
     }
 
     .content {
@@ -371,7 +371,12 @@ h5 {
         height: auto;
         padding-bottom: 15px;
     }
+
     .content {
-        border-radius: 5px;
+        outline:none;
+        border-left:2.5px solid black;
+        border-bottom: 2.5px solid black;
+        box-shadow: 6.85px 6.85px black;
     }
+
 }
