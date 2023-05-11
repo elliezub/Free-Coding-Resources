@@ -315,6 +315,10 @@ h5 {
     }
     #header-div {
         width: 618px;}
+
+    .div-container {
+        padding: 30px 7px 20px 7px;
+    }
 }
 
 @media (max-width: 660px) {
