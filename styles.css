@@ -28,7 +28,6 @@ h2 {
 
 /* TABS */
 #tabs {
-    width: 80vw;
     width: 815px;
     margin: 0 auto;
     display: flex; 
@@ -88,7 +87,6 @@ h2 {
     border-top:none;
     outline:2.5px solid black;  
     background-color: blueviolet;
-    width: 80vw;
     min-height: 580px;
     width: 815px;
     margin: 0 auto 50px auto;
@@ -260,9 +258,23 @@ h5 {
     border-radius: 6px;
 }
 
+#fcclogojs {
+    padding-top:10px;
+    padding-left: 10px;
+}
+
+#dare-logo {
+    width:30px;
+    float:left;
+    margin-right: 10px;
+}
+
 
 /* LOGOS END */
 
+#jssmall {
+    display:none;
+}
 
 
 #html {
@@ -280,4 +292,59 @@ h5 {
 }
 #python {
     background-color: blueviolet;
+}
+
+@media (max-width: 860px){
+    #tabs {
+        width: 618px;
+    }
+    
+    
+    .content {
+        width: 618px;
+    }
+    #header-div {
+        width: 618px;}
+}
+
+@media (max-width: 660px) {
+    #tabs {
+        width: 420px;
+    }
+
+    .content {
+        width: 420px;
+    }
+    
+    .tab-button {
+        font-size: .75rem;
+    }
+    #header-div {
+        width: 420px;}
+    
+}
+
+@media (max-width: 460px) {
+    #tabs {
+        width: 220px;
+    }
+
+    .content {
+        width: 220px;
+    }
+    
+    .tab-button {
+        padding:5px 0 5px 0;
+        font-size: .68rem;
+    }
+
+    #javasfull {
+        display: none;
+    }
+
+    #jssmall {
+        display:block;
+    }
+    #header-div {
+        width: 220px;}
 }

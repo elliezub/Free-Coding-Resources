@@ -25,7 +25,7 @@
      
         <button class="tab-button active" onclick="openTab(event, 'html')">HTML</button>
         <button class="tab-button" onclick="openTab(event, 'css')">CSS</button>
-        <button class="tab-button" onclick="openTab(event, 'javascript')">JavaScript</button>
+        <button class="tab-button" onclick="openTab(event, 'javascript')"><span id="javasfull">JavaScript</span><span id="jssmall">JS</span></button>
         <button class="tab-button" onclick="openTab(event, 'sql')">SQL</button>
         <button class="tab-button" onclick="openTab(event, 'python')">Python</button>
         
@@ -186,12 +186,18 @@
                 <p class="subtext">Structured learning path - Organized reference material</p>
             </div>
 
-            <div class="content-item">jsdares</div>
+            <div class="content-item">
+                <img id="dare-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAAAPklEQVR4AWMAAiZGBMIEmLIg1qzps4AIXQOmLKYQBiKk4diRY2iIsAa4wSRogLBpZgMcjWogI2mQmfhITt4AqHvdOOUsKDIAAAAASUVORK5CYII=" alt="js dares logo">
+                <a href="https://jsdares.com/?" target="_blank"><h4>jsdares</h4></a>
+                <p class="maintext">You learn by completing "dares". These are short puzzles that you need to solve,
+                     in as few lines of code as possible. First levels are controlling a robots movements, really fun side resource!</p>
+                <p class="subtext">Game format - Interactive - Fun - Challenging</p>
+            </div>
 
             <div class="content-item">
-                <i class="fa-brands fa-free-code-camp fa-xl"></i>
                 <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank">
                     <h4>freeCodeCamp</h4></a>
+                    <i id="fcclogojs" class="fa-brands fa-free-code-camp fa-xl"></i>
                     <p class="maintext">I do think this is a good resource, but you should first learn from one of the other main resources on the left.
                         It can be challenging for beginners, come here after you know the basics. Try it, and make your own projects at the end of the course!</p>
                     <p class="subtext">Challenges - Free certification</p>
@@ -235,7 +241,8 @@
                 if you finish before the trial ends.</p> 
                <a href="https://getmimo.com/invite/nzgnx7" target="_blank"><h4>Sololearn</h4></a>
                <img id="sololearn-logo" src="https://blob.sololearn.com/avatars/sololearn.png" alt="sololearn logo">
-               <p class="maintext sololearntext">Similar to Mimo, good SQL review on your phone.</p>  
+               <p class="maintext sololearntext">Similar to Mimo, good SQL review on your phone.</p> 
+               <p class="subtext">Mobile App - Competitive</p> 
            </div>
 
            <div class="content-item">
