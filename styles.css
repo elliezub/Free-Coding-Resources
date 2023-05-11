@@ -371,4 +371,7 @@ h5 {
         height: auto;
         padding-bottom: 15px;
     }
+    .content {
+        border-radius: 5px;
+    }
 }
