@@ -356,4 +356,10 @@ h5 {
     .div-container {
         justify-content: center;
     }
+
+    .content-item {
+        width:89%;
+        height: auto;
+        padding-bottom: 15px;
+    }
 }
