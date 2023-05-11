@@ -10,7 +10,7 @@ body {
 }
 /* HEADER */
 #header-div {
-    width: 815px;
+    width: 830px;
     margin: 40px auto 20px auto;
     margin-bottom: 50px;
 }
@@ -32,7 +32,7 @@ a {
 
 /* TABS */
 #tabs {
-    width: 815px;
+    width: 830px;
     margin: 0 auto;
     display: flex; 
     justify-content: space-between;
@@ -92,7 +92,7 @@ a {
     outline:2.5px solid black;  
     background-color: blueviolet;
     min-height: 580px;
-    width: 815px;
+    width: 830px;
     margin: 0 auto 50px auto;
     position: relative;
     top: 0;
@@ -104,12 +104,12 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    padding: 30px 7px 20px 7px;
+    padding: 30px 7px 20px 13px;
 }
 
 .content-item {
     width: 160px;
-    height: 160px;
+    min-height: 160px;
     border: solid black;
     background-color: #EEF0F4;
     border-radius: 13px;
@@ -132,7 +132,8 @@ a {
 .maintext {
     margin-top: 5px;
     margin-left: 2px;
-    font-size: .725rem;
+    font-size: .68rem;
+    word-wrap: break-word;
 }
 
 .subtext {
