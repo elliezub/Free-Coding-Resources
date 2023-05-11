@@ -340,11 +340,11 @@ h5 {
 
 @media (max-width: 460px) {
     #tabs {
-        width: 79.2vw;
+        width: 81.2vw;
     }
 
     .content {
-        width: 80vw;
+        width: 82vw;
     }
     
     .tab-button {
@@ -360,7 +360,7 @@ h5 {
         display:block;
     }
     #header-div {
-        width: 80vw;}
+        width: 82vw;}
 
     .div-container {
         justify-content: center;
@@ -377,6 +377,10 @@ h5 {
         border-left:2.5px solid black;
         border-bottom: 2.5px solid black;
         box-shadow: 6.85px 6.85px black;
+    }
+
+    .maintext {
+        font-size: .9rem;
     }
 
 }
