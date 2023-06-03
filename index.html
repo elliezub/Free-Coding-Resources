@@ -1,188 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@elliezub">
-    <meta name="twitter:title" content="Free Coding Resources">
-    <meta name="twitter:description" content="A collection of my favorite resources to learn HTML, CSS, JavaScript, SQL and Python.">
-    <meta name="twitter:image" content="https://i.ibb.co/d0pCF6B/elliezub-github-io-Free-Coding-Resources.jpg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@elliezub" />
+    <meta name="twitter:title" content="Free Coding Resources" />
+    <meta
+      name="twitter:description"
+      content="A collection of my favorite resources to learn HTML, CSS, JavaScript, SQL and Python."
+    />
+    <meta
+      name="twitter:image"
+      content="https://i.ibb.co/d0pCF6B/elliezub-github-io-Free-Coding-Resources.jpg"
+    />
     <meta property="og:title" content="Free Coding Resources" />
-    <meta property="og:description" content="A collection of my favorite resources to learn HTML, CSS, JavaScript, SQL and Python." />
-    <meta property="og:image" content="https://i.ibb.co/d0pCF6B/elliezub-github-io-Free-Coding-Resources.jpg" />
-    <meta property="og:url" content="https://elliezub.github.io/Free-Coding-Resources/" />
+    <meta
+      property="og:description"
+      content="A collection of my favorite resources to learn HTML, CSS, JavaScript, SQL and Python."
+    />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/d0pCF6B/elliezub-github-io-Free-Coding-Resources.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://elliezub.github.io/Free-Coding-Resources/"
+    />
     <meta property="og:type" content="website" />
 
     <title>Coding Resources</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/e5f441b479.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e5f441b479.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div id="header-div">
-    <h1>Hi Everyone!</h1>
-    <h2>Welcome to a page where you can find links to some of 
-        the best free resources to learn coding.</h2>
-    <h3>(Of course this is just my opinion 😄)</h3>
-    <p class="smallheadertext">PS: Everything is in order of how much I have used it while learning, top-left square = most used, bottom-right square = least used.
-        I am most motivated to learn using interactive resources that have built in coding challenges. So my main suggestions will not 
-        include totally video based or totally text based resources without interactive components. The main resource I use for each language will
-        be emphasized and first on the list. Happy coding! 💜
-    </p>
+      <h1>Hi Everyone!</h1>
+      <h2>
+        Welcome to a page where you can find links to some of the best free
+        resources to learn coding.
+      </h2>
+      <h3>(Of course this is just my opinion 😄)</h3>
+      <p class="smallheadertext">
+        PS: Everything is in order of how much I have used it while learning,
+        top-left square = most used, bottom-right square = least used. I am most
+        motivated to learn using interactive resources that have built in coding
+        challenges. So my main suggestions will not include totally video based
+        or totally text based resources without interactive components. The main
+        resource I use for each language will be emphasized and first on the
+        list. Happy coding! 💜
+      </p>
     </div>
 
     <div id="tabs" class="tab-shadow">
-     
-        <button class="tab-button active" onclick="openTab(event, 'html')">HTML</button>
-        <button class="tab-button" onclick="openTab(event, 'css')">CSS</button>
-        <button class="tab-button" onclick="openTab(event, 'javascript')"><span id="javasfull">JavaScript</span><span id="jssmall">JS</span></button>
-        <button class="tab-button" onclick="openTab(event, 'sql')">SQL</button>
-        <button class="tab-button" onclick="openTab(event, 'python')">Python</button>
-        
+      <button class="tab-button active" onclick="openTab(event, 'html')">
+        HTML
+      </button>
+      <button class="tab-button" onclick="openTab(event, 'css')">CSS</button>
+      <button class="tab-button" onclick="openTab(event, 'javascript')">
+        <span id="javasfull">JavaScript</span><span id="jssmall">JS</span>
+      </button>
+      <button class="tab-button" onclick="openTab(event, 'sql')">SQL</button>
+      <button class="tab-button" onclick="openTab(event, 'python')">
+        Python
+      </button>
     </div>
 
-<div id="html" class="content">
-    <div class="div-container">
+    <div id="html" class="content">
+      <div class="div-container">
         <div class="content-item">
-            <i class="fa-brands fa-free-code-camp fa-xl"></i>
-            <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank">
-                <h4>freeCodeCamp</h4></a>
-                <p class="maintext">This is the place that I started and fell in love with coding! 
-                    Start here if you want to learn HTML and CSS. Make sure to put your 
-                own creative twist on the module projects, you will learn so much more! </p>
-                <p class="subtext"><strong>Main resource</strong> - learn by doing - Challenges - Free certification</p>
-        </div>
-        <div class="content-item">    
-            <a id="scrimba-a" href="https://scrimba.com/learn/htmlandcss" target="_blank"><h4>Scrimba</h4></a>
-            <img id="scrimba-logo" src="https://asset.brandfetch.io/idK99W6SZ1/idqctupsPc.jpeg?updated=1681738159521" alt="scrimba logo">
-            <p class="maintext">The courses are in a screen sharing format, and offer challenges that 
-                you can solve. There are many mini projects and is taught in bite-sized pieces. Go here if you
-                are an auditory or visual learner. Love this.</p>
-            <p class="subtext">Interactive - video content - Unique screen share interface</p>
-        </div>
-        <div class="content-item">
-            <img id="codercoderimg" src="https://yt3.googleusercontent.com/ytc/AGIKgqPhoYaIqILRWX3RdDgXOwK1WS47xXKZtgeidb4FWg=s176-c-k-c0x00ffffff-no-rj" alt="codercoder">
-            <a href="https://www.youtube.com/@TheCoderCoder/videos" target="_blank"><h4>Coder Coder</h4></a>
-            <p class="maintext">Awesome YouTube channel with walkthrough projects. She explains every piece of code that
-                is written, and breaks it down for beginners. She also has a great video explaining VS code, git and github.
-                <p class="subtext">Walkthrough videos - step-by-step instruction - github for beginners</p>
-            </p>
+          <i class="fa-brands fa-free-code-camp fa-xl"></i>
+          <a
+            href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+            target="_blank"
+          >
+            <h4>freeCodeCamp</h4></a
+          >
+          <p class="maintext">
+            This is the place that I started and fell in love with coding! Start
+            here if you want to learn HTML and CSS. Make sure to put your own
+            creative twist on the module projects, you will learn so much more!
+          </p>
+          <p class="subtext">
+            <strong>Main resource</strong> - learn by doing - Challenges - Free
+            certification
+          </p>
         </div>
         <div class="content-item">
-            <img class="w3schools-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png?20210601004220" alt="w3schools logo">
-            <a href="https://www.w3schools.com/html/default.asp" target="_blank"><h4>W3Schools</h4></a>
-            <p class="maintext">Great for reference and refreshing knowledge. Mini quizzes and problems to solve and get points. 
-                Extensive information and short pieces of example code. Would use in addition to your main resource.
-                <p class="subtext">Structured learning path - Organized reference material</p>
-            </p>
+          <a
+            id="scrimba-a"
+            href="https://scrimba.com/learn/htmlandcss"
+            target="_blank"
+            ><h4>Scrimba</h4></a
+          >
+          <img
+            id="scrimba-logo"
+            src="https://asset.brandfetch.io/idK99W6SZ1/idqctupsPc.jpeg?updated=1681738159521"
+            alt="scrimba logo"
+          />
+          <p class="maintext">
+            The courses are in a screen sharing format, and offer challenges
+            that you can solve. There are many mini projects and is taught in
+            bite-sized pieces. Go here if you are an auditory or visual learner.
+            Love this.
+          </p>
+          <p class="subtext">
+            Interactive - video content - Unique screen share interface
+          </p>
+        </div>
+        <div class="content-item">
+          <img
+            id="codercoderimg"
+            src="https://yt3.googleusercontent.com/ytc/AGIKgqPhoYaIqILRWX3RdDgXOwK1WS47xXKZtgeidb4FWg=s176-c-k-c0x00ffffff-no-rj"
+            alt="codercoder"
+          />
+          <a
+            href="https://www.youtube.com/@TheCoderCoder/videos"
+            target="_blank"
+            ><h4>Coder Coder</h4></a
+          >
+          <p class="maintext">
+            Awesome YouTube channel with walkthrough projects. She explains
+            every piece of code that is written, and breaks it down for
+            beginners. She also has a great video explaining VS code, git and
+            github.
+          </p>
+          <p class="subtext">
+            Walkthrough videos - step-by-step instruction - github for beginners
+          </p>
+        </div>
+        <div class="content-item">
+          <img
+            class="w3schools-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png?20210601004220"
+            alt="w3schools logo"
+          />
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+            ><h4>W3Schools</h4></a
+          >
+          <p class="maintext">
+            Great for reference and refreshing knowledge. Mini quizzes and
+            problems to solve and get points. Extensive information and short
+            pieces of example code. Would use in addition to your main resource.
+          </p>
+          <p class="subtext">
+            Structured learning path - Organized reference material
+          </p>
         </div>
 
         <div class="content-item">
-             <a href="https://getmimo.com/invite/nzgnx7" target="_blank"><h4>Mimo</h4></a>
-             <img id="mimo-logo" src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e8/9a/16/e89a16d1-b2ef-6efc-4611-0c56d6f6ccd4/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="mimo logo">
-            <p class="maintext mimo">Great for practice on the go! Also has a leaderboard so it can be fun to compete. 
-                Can do a free trial and try to finish the HTML/CSS courses.</p> 
-            <a href="https://www.sololearn.com/" target="_blank"><h4>Sololearn</h4></a>
-            <img id="sololearn-logo" src="https://blob.sololearn.com/avatars/sololearn.png" alt="sololearn logo">
-            <p class="maintext sololearntext">Similar to Mimo, review what you have learned so it sticks in your brain.</p> 
-            
+          <a href="https://getmimo.com/invite/nzgnx7" target="_blank"
+            ><h4>Mimo</h4></a
+          >
+          <img
+            id="mimo-logo"
+            src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e8/9a/16/e89a16d1-b2ef-6efc-4611-0c56d6f6ccd4/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg"
+            alt="mimo logo"
+          />
+          <p class="maintext mimo">
+            Great for practice on the go! Also has a leaderboard so it can be
+            fun to compete. Can do a free trial and try to finish the HTML/CSS
+            courses.
+          </p>
+          <a href="https://www.sololearn.com/" target="_blank"
+            ><h4>Sololearn</h4></a
+          >
+          <img
+            id="sololearn-logo"
+            src="https://blob.sololearn.com/avatars/sololearn.png"
+            alt="sololearn logo"
+          />
+          <p class="maintext sololearntext">
+            Similar to Mimo, review what you have learned so it sticks in your
+            brain.
+          </p>
         </div>
 
         <div class="content-item">
-            <img id="dev-img" src="https://yt3.ggpht.com/ytc/AGIKgqNOPwqOF6yr6akbRGLCkF7vmhxcYvlP5hrXGrah=s88-c-k-c0x00ffffff-no-rj" alt="100 Devs img">
-            <a href="https://t.co/Mgu0I51Zz3" target="_blank"><h4>100Devs</h4></a>
-            <p class="maintext">Includes HTML, CSS and JavaScript in the curriculum. Can join a community or go through the videos on
-                YouTube. For people who like video based learning. 
-                Have not used this much. Link: <a href="https://communitytaught.org/" target="_blank">100Devs site</a></p>
-                <p class="subtext">Community - Reasoning behind the code</p>
+          <img
+            id="dev-img"
+            src="https://yt3.ggpht.com/ytc/AGIKgqNOPwqOF6yr6akbRGLCkF7vmhxcYvlP5hrXGrah=s88-c-k-c0x00ffffff-no-rj"
+            alt="100 Devs img"
+          />
+          <a href="https://t.co/Mgu0I51Zz3" target="_blank"><h4>100Devs</h4></a>
+          <p class="maintext">
+            Includes HTML, CSS and JavaScript in the curriculum. Can join a
+            community or go through the videos on YouTube. For people who like
+            video based learning. Have not used this much. Link:
+            <a href="https://communitytaught.org/" target="_blank"
+              >100Devs site</a
+            >
+          </p>
+          <p class="subtext">Community - Reasoning behind the code</p>
         </div>
 
         <div class="content-item">
-            <h4>Hi there!</h4>
-            <p class="maintext">Do you have any favorite free resources that you think should be added? Let me know, and 
-                I will check it out.</p>
-                <div id="icon-div">
-                <a href="https://github.com/elliezub" target="_blank">
-                    <i id="github" class="fa-brands fa-github fa-xl"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/elliezubrowski" target="_blank">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
-                </a>
-                <a href="https://twitter.com/elliezub" target="_blank">
-                    <i class="fa-brands fa-twitter fa-xl"></i>
-                </a>
-                </div>
+          <h4>Hi there!</h4>
+          <p class="maintext">
+            Do you have any favorite free resources that you think should be
+            added? Let me know, and I will check it out.
+          </p>
+          <div id="icon-div">
+            <a href="https://github.com/elliezub" target="_blank">
+              <i id="github" class="fa-brands fa-github fa-xl"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/elliezubrowski"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin fa-xl"></i>
+            </a>
+            <a href="https://twitter.com/elliezub" target="_blank">
+              <i class="fa-brands fa-twitter fa-xl"></i>
+            </a>
+          </div>
         </div>
-        
+      </div>
     </div>
-</div>
 
     <div id="css" class="content">
-        <div class="div-container">
-            <div class="content-item">
-                <img class="w3schools-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png?20210601004220" alt="w3schools logo">
-                <a href="https://www.w3schools.com/css/default.asp" target="_blank"><h4>W3Schools</h4></a>
-                <p class="maintext">While using a main resource to learn HTML & CSS together, using W3Schools to practice is a great choice.
-                    Everything is grouped by category. Make sure to do all the "try it yourself" and the exercises.
-                <p class="subtext">Structured learning path - Organized reference material</p>
-            </div>
+      <div class="div-container">
+        <div class="content-item">
+          <img
+            class="w3schools-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png?20210601004220"
+            alt="w3schools logo"
+          />
+          <a href="https://www.w3schools.com/css/default.asp" target="_blank"
+            ><h4>W3Schools</h4></a
+          >
+          <p class="maintext">
+            While using a main resource to learn HTML & CSS together, using
+            W3Schools to practice is a great choice. Everything is grouped by
+            category. Make sure to do all the "try it yourself" and the
+            exercises.
+          </p>
 
-            <div class="content-item">
-                <img id="cssdays-img" src="https://user-images.githubusercontent.com/18417244/38813492-5e07251a-418f-11e8-829a-ffd1d1db6470.png" alt="100 days css logo">
-                <a href="https://100dayscss.com/" target="_blank"><h4>100 Days CSS</h4></a>
-                <p class="maintext"> This is a daily CSS challenge, great for learning new concepts that you can use later
-                    in your own projects. Put a creative twist on the project and you can learn a lot. Try to do it yourself 
-                    before peeking.</p>
-                    <p class="subtext">Intermediate difficulty - Fun - Challenge yourself</p>
-            </div>
-
-            <div class="content-item">
-                <a href="https://flexboxfroggy.com/" target="_blank"><h4>FlexBox Froggy</h4></a>
-                <img id="froggy-img" src="https://myresources.valentinsld.fr/wp-content/uploads/2020/08/frog.ico" alt="froggy logo">
-                <p class="maintext"> Honestly the funnest way to learn CSS Flexbox. There are 24 levels.
-                     You can write css to help your frog friend get to their lilypad.
-                    Highly recommend this resource if you are having trouble with Flexbox.
-                </p>
-                    <p class="subtext">Game format - CSS Flexbox - Cute</p>
-            </div>
-
-            <div class="content-item">
-                <a href="https://codingfantasy.com/games/flexboxadventure" target="_blank"><h4>FlexBox Adventure</h4></a>
-                <p class="maintext"> Super fun game to learn Flexbox, King Arthur plans to seek revenge on the people who wronged him.
-                    You must use Flexbox to help him defeat his enemies! Similar to Flexbox Froggy.
-                </p>
-                    <p class="subtext">Game format - CSS Flexbox - Fighting-style game</p>
-            </div>
-
-            <div class="content-item">
-                <a href="https://codepip.com/games/grid-garden/" target="_blank"><h4>Grid Garden</h4></a>
-                <img id="garden-img" src="https://myresources.valentinsld.fr/wp-content/uploads/2020/11/cssgridgarden.ico" alt="garden logo">
-                <p class="maintext"> Use this if you want to practice using CSS grid and like farming games. Similar to the format of Flexbox Adventure
-                    and Flexbox Froggy, but instead it's about CSS grid. Although I use flexbox more then grid, its still useful to learn. 
-                </p>
-                    <p class="subtext">Game format - CSS Grid - Farming</p>
-            </div>
-
-            <div class="content-item">
-                <a href="https://www.frontendmentor.io/challenges" target="_blank"><h4>Frontend Mentor</h4></a>
-                <img id="front-img" src="https://seeklogo.com/images/F/frontend-mentor-logo-DD85EFE0E9-seeklogo.com.png" alt="garden logo">
-                <p class="maintext"> Great websites if you want to gain experience creating duplicates of designs. There are some free challenges 
-                    that you can do. Personally have not used much because I like to create my own designs.
-                </p>
-                    <p class="subtext">Challenges - Similar to real work tasks - Design practice</p>
-            </div>
-
-            <div class="content-item"> more coming soon..</div>
-            
+          <p class="subtext">
+            Structured learning path - Organized reference material
+          </p>
         </div>
+
+        <div class="content-item">
+          <img
+            id="cssdays-img"
+            src="https://user-images.githubusercontent.com/18417244/38813492-5e07251a-418f-11e8-829a-ffd1d1db6470.png"
+            alt="100 days css logo"
+          />
+          <a href="https://100dayscss.com/" target="_blank"
+            ><h4>100 Days CSS</h4></a
+          >
+          <p class="maintext">
+            This is a daily CSS challenge, great for learning new concepts that
+            you can use later in your own projects. Put a creative twist on the
+            project and you can learn a lot. Try to do it yourself before
+            peeking.
+          </p>
+          <p class="subtext">
+            Intermediate difficulty - Fun - Challenge yourself
+          </p>
+        </div>
+
+        <div class="content-item">
+          <a href="https://flexboxfroggy.com/" target="_blank"
+            ><h4>FlexBox Froggy</h4></a
+          >
+          <img
+            id="froggy-img"
+            src="https://myresources.valentinsld.fr/wp-content/uploads/2020/08/frog.ico"
+            alt="froggy logo"
+          />
+          <p class="maintext">
+            Honestly the funnest way to learn CSS Flexbox. There are 24 levels.
+            You can write css to help your frog friend get to their lilypad.
+            Highly recommend this resource if you are having trouble with
+            Flexbox.
+          </p>
+          <p class="subtext">Game format - CSS Flexbox - Cute</p>
+        </div>
+
+        <div class="content-item">
+          <a
+            href="https://codingfantasy.com/games/flexboxadventure"
+            target="_blank"
+            ><h4>FlexBox Adventure</h4></a
+          >
+          <p class="maintext">
+            Super fun game to learn Flexbox, King Arthur plans to seek revenge
+            on the people who wronged him. You must use Flexbox to help him
+            defeat his enemies! Similar to Flexbox Froggy.
+          </p>
+          <p class="subtext">Game format - CSS Flexbox - Fighting-style game</p>
+        </div>
+
+        <div class="content-item">
+          <a href="https://codepip.com/games/grid-garden/" target="_blank"
+            ><h4>Grid Garden</h4></a
+          >
+          <img
+            id="garden-img"
+            src="https://myresources.valentinsld.fr/wp-content/uploads/2020/11/cssgridgarden.ico"
+            alt="garden logo"
+          />
+          <p class="maintext">
+            Use this if you want to practice using CSS grid and like farming
+            games. Similar to the format of Flexbox Adventure and Flexbox
+            Froggy, but instead it's about CSS grid. Although I use flexbox more
+            then grid, its still useful to learn.
+          </p>
+          <p class="subtext">Game format - CSS Grid - Farming</p>
+        </div>
+
+        <div class="content-item">
+          <a href="https://www.frontendmentor.io/challenges" target="_blank"
+            ><h4>Frontend Mentor</h4></a
+          >
+          <img
+            id="front-img"
+            src="https://seeklogo.com/images/F/frontend-mentor-logo-DD85EFE0E9-seeklogo.com.png"
+            alt="garden logo"
+          />
+          <p class="maintext">
+            Great websites if you want to gain experience creating duplicates of
+            designs. There are some free challenges that you can do. Personally
+            have not used much because I like to create my own designs.
+          </p>
+          <p class="subtext">
+            Challenges - Similar to real work tasks - Design practice
+          </p>
+        </div>
+
+        <div class="content-item">more coming soon..</div>
+      </div>
     </div>
 
     <div id="javascript" class="content">
-        <div class="div-container">
-
-            <div class="content-item">
-                <img class="jsinfo-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADF0lEQVR4Ac1WA5AcQRTtGOcdnG+mpxTbtlmIbZ
+      <div class="div-container">
+        <div class="content-item">
+          <img
+            class="jsinfo-logo"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADF0lEQVR4Ac1WA5AcQRTtGOcdnG+mpxTbtlmIbZ
                 ZiOylEpaAQ2062dmZj2ywEpdjWf7U9mzNnrvIOXf0bv//7mM8ywiFPfMI2llCCOQDc4/XEJebwECtkqcZy05NUhuUBPkkr7VeNFTMZK8xyCrDgV4wnpsIHslzAUvT+OJ+59ZmjAF1wg
                 Cz4Q2xs3CvLYdliT1FCLZWvxzlLMQ7hHpZbHAqNUSyF38dlpqqPZ9kAKR8rlD/whkarLK8wZaOnuPBRVhfuD4uTibWHAdZ4b+YEVjJWxFT5bGLip1/m0zL3O5+CffQ3F+eYk7AkXsOv8B
                 0ZpedqphfHus+j12I5BQLMJ+kdLUlr4o1KLGeG8GikYhqKWVzJjFITcqynliMFj8harBnFK5iS0cySeXs8lqXG7kg9kqgbTVb8hg8xUvQPTze/ZaMt+foi/X3AiHm6rMn6jOB9Kv9Cewc
@@ -190,127 +351,274 @@
                 wEaX5CVRzEmY8B1oDC1yzwG3Adov5VcOQXcbZZfQE5bCv8FxQhOO2Uhzx8XqMYIO+jwqU32mFEsP0Cp5RdpuDPgDn5OsHCMuQ3xef4ZLFAor7I+HXMwgRLubvDJfEgw+OxyrfDj9pxK7zCX
                 6edeofiqJWtVKPp3BWo9/ygeYboX/eEJHgq8H4LuOajrqPkUC/dJ/l7If6Ipccl6vb9NtalqaFDui1j4aMp8zz838EFuleADdrAJN7wBE2ZYvBRoRI2vQn6EOQ1flBFBCr4lD76jCr+CB1iqV
                 gfNCxSL+vD9QERSlLPFR+K9ghRLxlK06UT9y2QPem33DwGW9H7MSZDC3aLmf7M7GgShV9JrkmwmaoLtGsHCAeYUoBDtlPC/N7MiZX+k8FC4zaFuWOuMS7NT7xET9l6kKHMCKLeodmSVBSsz3Ru
-                RZNDeE+SCkz5Fq8z+d/wFbvfHWf586qAAAAAASUVORK5CYII=" alt="js info logo">
-                <a href="https://javascript.info/" target="_blank"><h4>JavaScript.info</h4></a>
-                <p class="maintext">Similar to JS documentation, but easy to follow. Text-based content that is an excellent resource after
-                    you have already grasped the fundamentals of JS. Covers every relevant topic and includes practice exercises.</p>
-                <p class="subtext"><strong>Main resource</strong> - Favorite JS resource - Structured learning</p>
-            </div>
-
-            <div class="content-item">    
-                <a id="scrimba-a" href="https://scrimba.com/learn/learnjavascript" target="_blank"><h4>Scrimba</h4></a>
-                <img id="scrimba-logo2" src="https://asset.brandfetch.io/idK99W6SZ1/idqctupsPc.jpeg?updated=1681738159521" alt="scrimba logo">
-                <p class="maintext">The courses are in a screen sharing format, and offer challenges that 
-                    you can solve. There are many mini projects and is taught in bite-sized pieces. Go here if you
-                    are an auditory or visual learner. Great as a starting resource.</p>
-                <p class="subtext"><strong>Main resource</strong> - Interactive - Start here as a beginner</p>
-            </div>
-
-
-            <div class="content-item">
-                <img class="codewars-logo" src="https://www.codewars.com/packs/assets/logo.61192cf7.svg" alt="w3schools logo">
-                <a href="https://www.codewars.com/" target="_blank"><h4>Codewars</h4></a>
-                <p class="maintext">Codewars is a platform that helps you learn & practice by solving coding challenges of many difficulty levels. This is excellent to use 
-                    after you have learned the basics of JS for practicing and also preparing for future interviews!</p>
-                <p class="subtext">Solve challenges - Increase your rank - Learn from others code</p>
-            </div>
-
-            <div class="content-item">
-                <img class="w3schools-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png?20210601004220" alt="w3schools logo">
-                <a href="https://www.w3schools.com/js/default.asp" target="_blank"><h4>W3Schools</h4></a>
-                <p class="maintext">Has a comprehensive path to learning JavaScript, make sure to do all of the "try it yourself" and exercises. 
-                   This <a href="https://www.w3schools.com/howto/default.asp" target="_blank">"How to"</a> page is very useful for combining your HTML, CSS and learning more JavaScript.</p>
-                <p class="subtext">Structured learning path - Organized reference material</p>
-            </div>
-
-            <div class="content-item">
-                    <i id="fcclogojs" class="fa-brands fa-free-code-camp fa-xl"></i>
-                <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank">
-                    <h4>freeCodeCamp</h4></a>
-                    <p class="maintext">I do think this is a good resource, but you should first learn from one of the other main resources first.
-                        It can be challenging for beginners, come here after you know the basics. Try it, and make your own projects at the end of the course!</p>
-                    <p class="subtext">Challenges - Free certification</p>
-            </div>
-
-            <div class="content-item">
-                <img id="dare-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAAAPklEQVR4AWMAAiZGBMIEmLIg1qzps4AIXQOmLKYQBiKk4diRY2iIsAa4wSRogLBpZgMcjWogI2mQmfhITt4AqHvdOOUsKDIAAAAASUVORK5CYII=" alt="js dares logo">
-                <a href="https://jsdares.com/?" target="_blank"><h4>jsdares</h4></a>
-                <p class="maintext">You learn by completing "dares". These are short puzzles that you need to solve,
-                     in as few lines of code as possible. First levels are controlling a robots movements, really fun side resource!</p>
-                <p class="subtext">Game format - Interactive - Fun - Challenging</p>
-            </div>
-
-            <div class="content-item">
-                <img id="dev-img2" src="https://yt3.ggpht.com/ytc/AGIKgqNOPwqOF6yr6akbRGLCkF7vmhxcYvlP5hrXGrah=s88-c-k-c0x00ffffff-no-rj" alt="100 Devs img">
-                <a href="https://t.co/Mgu0I51Zz3" target="_blank"><h4>100Devs</h4></a>
-                <p class="maintext">He breaks down the code and makes it understandable, also he is very motivational. Can learn through the videos on
-                    YouTube and track progress on this website: <a href="https://communitytaught.org/" target="_blank">100Devs site</a></p>
-                    <p class="subtext">Community - Reasoning behind the code</p>
-            </div>
-
-            <div class="content-item"> more coming soon..</div>
+                RZNDeE+SCkz5Fq8z+d/wFbvfHWf586qAAAAAASUVORK5CYII="
+            alt="js info logo"
+          />
+          <a href="https://javascript.info/" target="_blank"
+            ><h4>JavaScript.info</h4></a
+          >
+          <p class="maintext">
+            Similar to JS documentation, but easy to follow. Text-based content
+            that is an excellent resource after you have already grasped the
+            fundamentals of JS. Covers every relevant topic and includes
+            practice exercises.
+          </p>
+          <p class="subtext">
+            <strong>Main resource</strong> - Favorite JS resource - Structured
+            learning
+          </p>
         </div>
-</div>
 
-    <div id="sql" class="content">        
-        <div class="div-container">
-            <div class="content-item">
-                <a id="w3schools-sql" href="https://www.w3schools.com/sql/default.asp" target="_blank"><h4>W3Schools</h4></a>
-                <img class="w3schools-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png?20210601004220" alt="w3schools logo">
-                <p class="maintext">Great resource for practicing SQL, remember to do all of the "try it yourself" and exercises. W3Schools also has tutorials for some other
-                     server side content like MySQL and PHP.</p>
-                <p class="subtext"><strong>Main resource</strong> - Structured learning path - Organized reference material</p>
-            </div>
-
-            <div class="content-item">
-                <a id="hackerrank" href="https://www.hackerrank.com/domains/sql" target="_blank"><h4>HackerRank</h4></a>
-                <img class="hackerrank-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png" alt="HackerRank logo">
-                <p class="maintext">You can practice SQL by doing challenges on HackerRank. You might want to learn some SQL using a main resource first, this is more 
-                    of a test for what you already know. Gets progressively harder.
-                </p>
-                <p class="subtext">Challenges - Interactive - Win points to earn stars</p>
-            </div>
-
-            <div class="content-item">
-                <a href="https://getmimo.com/invite/nzgnx7" target="_blank"><h4>Mimo</h4></a>
-                <img id="mimo-logo" src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e8/9a/16/e89a16d1-b2ef-6efc-4611-0c56d6f6ccd4/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="mimo logo">
-               <p class="maintext mimo">Great for practicing SQL on your phone! Do a free trial and finish the entire SQL course. Get a free cert. 
-                if you finish before the trial ends.</p> 
-               <a href="https://getmimo.com/invite/nzgnx7" target="_blank"><h4>Sololearn</h4></a>
-               <img id="sololearn-logo" src="https://blob.sololearn.com/avatars/sololearn.png" alt="sololearn logo">
-               <p class="maintext sololearntext">Similar to Mimo, good SQL review on your phone.</p> 
-               <p class="subtext">Mobile App - Competitive</p> 
-           </div>
-
-           <div class="content-item">
-                <a id="w3schools-sql" href="https://sqlbolt.com/" target="_blank"><h4>SQLBolt</h4></a>
-                <img class="w3schools-logo" src="https://sqlbolt.com/cs/images/favicon.png" alt="SQLBolt logo">
-                <p class="maintext">Very comprehensive resource for learning SQL and highly recommended by others. This will guide you through a lot of essential SQL 
-                    knowledge. Interactive with challenges to solve.
-                </p>
-                <p class="subtext"><strong>Main resource</strong> - Structured learning path - Organized reference material</p>
-            </div>
-
-            <div class="content-item">more coming soon..</div>
-        
+        <div class="content-item">
+          <a
+            id="scrimba-a"
+            href="https://scrimba.com/learn/learnjavascript"
+            target="_blank"
+            ><h4>Scrimba</h4></a
+          >
+          <img
+            id="scrimba-logo2"
+            src="https://asset.brandfetch.io/idK99W6SZ1/idqctupsPc.jpeg?updated=1681738159521"
+            alt="scrimba logo"
+          />
+          <p class="maintext">
+            The courses are in a screen sharing format, and offer challenges
+            that you can solve. There are many mini projects and is taught in
+            bite-sized pieces. Go here if you are an auditory or visual learner.
+            Great as a starting resource.
+          </p>
+          <p class="subtext">
+            <strong>Main resource</strong> - Interactive - Start here as a
+            beginner
+          </p>
         </div>
+
+        <div class="content-item">
+          <img
+            class="codewars-logo"
+            src="https://www.codewars.com/packs/assets/logo.61192cf7.svg"
+            alt="w3schools logo"
+          />
+          <a href="https://www.codewars.com/" target="_blank"
+            ><h4>Codewars</h4></a
+          >
+          <p class="maintext">
+            Codewars is a platform that helps you learn & practice by solving
+            coding challenges of many difficulty levels. This is excellent to
+            use after you have learned the basics of JS for practicing and also
+            preparing for future interviews!
+          </p>
+          <p class="subtext">
+            Solve challenges - Increase your rank - Learn from others code
+          </p>
+        </div>
+
+        <div class="content-item">
+          <img
+            class="w3schools-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png?20210601004220"
+            alt="w3schools logo"
+          />
+          <a href="https://www.w3schools.com/js/default.asp" target="_blank"
+            ><h4>W3Schools</h4></a
+          >
+          <p class="maintext">
+            Has a comprehensive path to learning JavaScript, make sure to do all
+            of the "try it yourself" and exercises. This
+            <a
+              href="https://www.w3schools.com/howto/default.asp"
+              target="_blank"
+              >"How to"</a
+            >
+            page is very useful for combining your HTML, CSS and learning more
+            JavaScript.
+          </p>
+          <p class="subtext">
+            Structured learning path - Organized reference material
+          </p>
+        </div>
+
+        <div class="content-item">
+          <i id="fcclogojs" class="fa-brands fa-free-code-camp fa-xl"></i>
+          <a
+            href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
+            target="_blank"
+          >
+            <h4>freeCodeCamp</h4></a
+          >
+          <p class="maintext">
+            I do think this is a good resource, but you should first learn from
+            one of the other main resources first. It can be challenging for
+            beginners, come here after you know the basics. Try it, and make
+            your own projects at the end of the course!
+          </p>
+          <p class="subtext">Challenges - Free certification</p>
+        </div>
+
+        <div class="content-item">
+          <img
+            id="dare-logo"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAAAPklEQVR4AWMAAiZGBMIEmLIg1qzps4AIXQOmLKYQBiKk4diRY2iIsAa4wSRogLBpZgMcjWogI2mQmfhITt4AqHvdOOUsKDIAAAAASUVORK5CYII="
+            alt="js dares logo"
+          />
+          <a href="https://jsdares.com/?" target="_blank"><h4>jsdares</h4></a>
+          <p class="maintext">
+            You learn by completing "dares". These are short puzzles that you
+            need to solve, in as few lines of code as possible. First levels are
+            controlling a robots movements, really fun side resource!
+          </p>
+          <p class="subtext">Game format - Interactive - Fun - Challenging</p>
+        </div>
+
+        <div class="content-item">
+          <img
+            id="dev-img2"
+            src="https://yt3.ggpht.com/ytc/AGIKgqNOPwqOF6yr6akbRGLCkF7vmhxcYvlP5hrXGrah=s88-c-k-c0x00ffffff-no-rj"
+            alt="100 Devs img"
+          />
+          <a href="https://t.co/Mgu0I51Zz3" target="_blank"><h4>100Devs</h4></a>
+          <p class="maintext">
+            He breaks down the code and makes it understandable, also he is very
+            motivational. Can learn through the videos on YouTube and track
+            progress on this website:
+            <a href="https://communitytaught.org/" target="_blank"
+              >100Devs site</a
+            >
+          </p>
+          <p class="subtext">Community - Reasoning behind the code</p>
+        </div>
+
+        <div class="content-item">more coming soon..</div>
+      </div>
+    </div>
+
+    <div id="sql" class="content">
+      <div class="div-container">
+        <div class="content-item">
+          <a
+            id="w3schools-sql"
+            href="https://www.w3schools.com/sql/default.asp"
+            target="_blank"
+            ><h4>W3Schools</h4></a
+          >
+          <img
+            class="w3schools-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/768px-W3Schools_logo.svg.png?20210601004220"
+            alt="w3schools logo"
+          />
+          <p class="maintext">
+            Great resource for practicing SQL, remember to do all of the "try it
+            yourself" and exercises. W3Schools also has tutorials for some other
+            server side content like MySQL and PHP.
+          </p>
+          <p class="subtext">
+            <strong>Main resource</strong> - Structured learning path -
+            Organized reference material
+          </p>
+        </div>
+
+        <div class="content-item">
+          <a
+            id="hackerrank"
+            href="https://www.hackerrank.com/domains/sql"
+            target="_blank"
+            ><h4>HackerRank</h4></a
+          >
+          <img
+            class="hackerrank-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png"
+            alt="HackerRank logo"
+          />
+          <p class="maintext">
+            You can practice SQL by doing challenges on HackerRank. You might
+            want to learn some SQL using a main resource first, this is more of
+            a test for what you already know. Gets progressively harder.
+          </p>
+          <p class="subtext">
+            Challenges - Interactive - Win points to earn stars
+          </p>
+        </div>
+
+        <div class="content-item">
+          <a href="https://getmimo.com/invite/nzgnx7" target="_blank"
+            ><h4>Mimo</h4></a
+          >
+          <img
+            id="mimo-logo"
+            src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e8/9a/16/e89a16d1-b2ef-6efc-4611-0c56d6f6ccd4/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg"
+            alt="mimo logo"
+          />
+          <p class="maintext mimo">
+            Great for practicing SQL on your phone! Do a free trial and finish
+            the entire SQL course. Get a free cert. if you finish before the
+            trial ends.
+          </p>
+          <a href="https://getmimo.com/invite/nzgnx7" target="_blank"
+            ><h4>Sololearn</h4></a
+          >
+          <img
+            id="sololearn-logo"
+            src="https://blob.sololearn.com/avatars/sololearn.png"
+            alt="sololearn logo"
+          />
+          <p class="maintext sololearntext">
+            Similar to Mimo, good SQL review on your phone.
+          </p>
+          <p class="subtext">Mobile App - Competitive</p>
+        </div>
+
+        <div class="content-item">
+          <a id="w3schools-sql" href="https://sqlbolt.com/" target="_blank"
+            ><h4>SQLBolt</h4></a
+          >
+          <img
+            class="w3schools-logo"
+            src="https://sqlbolt.com/cs/images/favicon.png"
+            alt="SQLBolt logo"
+          />
+          <p class="maintext">
+            Very comprehensive resource for learning SQL and highly recommended
+            by others. This will guide you through a lot of essential SQL
+            knowledge. Interactive with challenges to solve.
+          </p>
+          <p class="subtext">
+            <strong>Main resource</strong> - Structured learning path -
+            Organized reference material
+          </p>
+        </div>
+
+        <div class="content-item">more coming soon..</div>
+      </div>
     </div>
 
     <div id="python" class="content">
-        <div class="div-container">
-            <div class="content-item">
-                <a id="hackerrank" href="https://www.hackerrank.com/domains/python" target="_blank"><h4>HackerRank</h4></a>
-                <img class="hackerrank-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png" alt="HackerRank logo">
-                <p class="maintext">You can learn and practice Python by doing challenges on HackerRank. It is similar to the freeCodeCamp teaching format, they provide an example and then
-                    a challenge that is similar.
-                </p>
-                <p class="subtext">Challenges - Interactive - Win points to earn stars</p>
-            </div>
-            <div class="content-item">more coming soon..</div>
-            </div>
+      <div class="div-container">
+        <div class="content-item">
+          <a
+            id="hackerrank"
+            href="https://www.hackerrank.com/domains/python"
+            target="_blank"
+            ><h4>HackerRank</h4></a
+          >
+          <img
+            class="hackerrank-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png"
+            alt="HackerRank logo"
+          />
+          <p class="maintext">
+            You can learn and practice Python by doing challenges on HackerRank.
+            It is similar to the freeCodeCamp teaching format, they provide an
+            example and then a challenge that is similar.
+          </p>
+          <p class="subtext">
+            Challenges - Interactive - Win points to earn stars
+          </p>
+        </div>
+        <div class="content-item">more coming soon..</div>
+      </div>
     </div>
 
-<p class="subtext footer">Designed & Built by Ellie Zubrowski</p>
- <script src="script.js"></script>   
-</body>
+    <p class="subtext footer">Designed & Built by Ellie Zubrowski</p>
+    <script src="script.js"></script>
+  </body>
 </html>
