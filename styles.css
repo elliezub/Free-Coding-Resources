@@ -15,13 +15,17 @@ body {
     margin-bottom: 50px;
 }
 
+#header-div h3 {
+    font-size: 17px;
+}
+
 h2 {
     margin: 10px 0;
 }
 
 .smallheadertext {
     margin-top: 10px;
-    font-size: .7rem;
+    font-size: .75rem;
 }
 
 a {
